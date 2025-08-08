@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>InternMatch</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="top-nav">
+      <h1>InternMatch</h1>
+    </nav>
+  </header>
+  <main class="layout">
+    <aside class="left">
+      <div class="profile-card">
+        <img src="https://via.placeholder.com/100" alt="Profile" />
+        <h2>Your Name</h2>
+        <p>Aspiring Intern</p>
+      </div>
+    </aside>
+    <section class="feed">
+      <form id="post-form" class="card">
+        <textarea placeholder="Share an update"></textarea>
+        <button type="submit">Post</button>
+      </form>
+      <div id="posts" class="card"></div>
+    </section>
+    <aside class="right">
+      <div class="suggestions card">
+        <h3>People you may know</h3>
+        <ul>
+          <li>Jane Doe - Marketing Intern</li>
+          <li>John Smith - Software Intern</li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
